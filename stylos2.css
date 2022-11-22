@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo Navegacion*/
+.logo{
+    margin-left: 6%;
+}
+.logo a{
+    font-size: 30px;
+}
+#navbarCollapse{
+    position: absolute;
+    margin-left: 30%;
+}
+.navbar{
+    background-color:  rgb(29, 58, 74);
+    margin: 0 auto;
+}
+.nav-item{
+    font-size:20px;
+}
+@media (min-width: 1000px){
+    .nav-item{
+        font-size: 25px;
+    }
+    #conf{
+        font-size: 35px;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1800px){
+    .nav-item{
+        font-size: 20px;
+    }
+    #conf{
+        font-size: 25px;
+    }
+}
+/*Estilos Cajas*/
+.container1{
+    margin-top: 40px;
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    padding: 0;
+}
+
+.caja{
+    border: 2px solid rgb(150, 194, 244);
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+
+}
+.caja1{
+    border: 2px solid rgb(157, 209, 217);
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+
+}
+
+.caja2{
+    border: 2px solid rgb(248, 225, 156);
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+}
+
+.span{
+    font-size: 14px;
+    color: rgb(125, 128, 131);
+}
+
+.caja h4,
+.caja p{
+    margin-top: 30px;
+}
+
+.caja1 h4,
+.caja1 p{
+    margin-top: 30px;
+}
+
+.caja2 h4,
+.caja2 p{
+    margin-top: 30px;
+   
+}
+
+@media (max-width:1200px) {
+    .caja,
+    .caja1,
+    .caja2{
+        width: 200px;
+    }
+}
+@media (max-width:1067px) {
+    .caja,
+    .caja1,
+    .caja2{
+        width: 150px;
+    }
+    .nav-item{
+        font-size: 10px;
+    }
+}
+@media (max-width:750px){
+    .caja,
+    .caja1,
+    .caja2{
+        width: 80px;
+        font-size: 10px;
+    }
+    .caja h4,
+    .caja1 h4,
+    .caja2 h4{
+        font-size: 15px;
+    }
+    .span{
+        font-size: 15px;
+    }
+}
+
+/*Estilo Formulario*/
+
+#formulario{
+    margin-top: 200px;
+    width: 60%;
+    padding: 0;
+    margin: 0 auto;
+}
+.for{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.contenedores{
+    margin-bottom: 15px;
+    margin: 20px;
+}
+#nombre{
+    height: 40px;
+}
+#apellido{
+    height: 40px;
+}
+#formulario p{
+    font-size: 20px;
+}
+#formulario h2{
+    font-size: 40px;
+}
+#formulario p{
+    font-size: 20px;
+}
+.enviar{
+    width: 100%;
+    height: 40px;
+    background:rgb(150, 201, 62);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+#formulario h2 span{
+    font-size:20px;
+    font-weight: normal;
+}
+.botones{
+    display: flex;
+    gap: 10px;
+}
+.unico{
+    text-align: center;
+}
+#correo{
+    margin-bottom: 20px;
+}
+.label{
+    margin-bottom: 15px;
+}
+.form-control{
+    border-radius: 5px !important;
+}
+.pagar{
+    width: 100%;
+    background-color: rgb(204, 229, 255);
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+#pagar{
+    color: rgb(73, 104, 134);
+    margin-left: 10px;
+    font-size: 15px !important;
+}
+/*Estilo Footer*/
+
+#footer{
+    width: 100%;;
+    height: 80px;
+    background-color: rgb(29, 58, 74);
+    margin-top: 10px;
+}
+#footer ul{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    gap: 15px;
+    line-height:18px;
+    top: 25px;
+    position: relative;
+}
+#footer ul li{
+    list-style: none;
+    width: 200px;
+    padding: 0;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+@media (max-width: 700px){
+    #footer{
+        height: 40px;
+        margin-top: 5px;
+    }
+    #footer ul li a{
+        font-size: 5px;
+       
+    }
+    #footer ul{
+        top: 12.5px;
+        gap: 20px;
+        line-height: 5px;
+    }
+}
